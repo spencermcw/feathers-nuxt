@@ -27,7 +27,7 @@
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "start": "npm run build && node src/",
-    "mocha": "mocha test/ --timeout=10000 --recursive --exit"
+    "mocha": "mocha test/ --timeout=0 --recursive --exit"
   },
   "dependencies": {
     "@feathersjs/configuration": "^1.0.1",
